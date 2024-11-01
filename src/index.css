@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  color: #333;
+}
+
+.gradient-text {
+  background-image: linear-gradient(
+    90deg,
+    #1F2933 0%,
+    #3F83F8 25%,
+    #00B6F1 50%,
+    #3F83F8 75%,
+    #1F2933 100%
+  );
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shine 3s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* Add this new CSS for smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Adjust the header height */
+header {
+  height: 80px;
+}
+
+/* Add padding to the top of the main content to account for the fixed header */
+main {
+  padding-top: 80px;
+}
+
+/* Add styles for mobile menu */
+@media (max-width: 768px) {
+  header {
+    height: auto;
+  }
+
+  main {
+    padding-top: 60px;
+  }
+
+  .mobile-menu-open {
+    padding-top: 240px; /* Adjust this value based on your mobile menu height */
+  }
+}
