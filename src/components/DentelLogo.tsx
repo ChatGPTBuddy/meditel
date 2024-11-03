@@ -21,7 +21,7 @@ const DentCallLogo: React.FC = () => (
       </defs>
     </svg>
     <div className="flex flex-col ml-2 items-center">
-      <span className="text-2xl font-bold text-[#0066FF]">DentCall</span>
+      <span className="text-2xl font-bold text-[#0066FF]">Meditel</span>
       <span className="text-xs text-[#0066FF] mt-[-2px]">Simplify with AI</span>
     </div>
   </div>

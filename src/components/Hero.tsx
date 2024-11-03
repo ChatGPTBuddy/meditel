@@ -48,10 +48,10 @@ const Hero: React.FC = () => {
       <div className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-6 gradient-text">
-            The AI Receptionist for Dentists
+            The AI Receptionist for Medical Practices
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 mb-8">
-            Streamline your dental practice with our intelligent AI solution.
+            Streamline your medical practice with our intelligent AI solution.
           </p>
           <div className="flex flex-col sm:flex-row justify-center mb-8 space-y-4 sm:space-y-0 sm:space-x-4">
             <button
@@ -69,7 +69,7 @@ const Hero: React.FC = () => {
               Call the AI yourself
             </a>
             <a
-              href="https://dashboard.hiai.ai/app/eu/client?username=demo@dentcall.ai&password=Demo"
+              href="https://dashboard.hiai.ai/app/eu/client?username=demo@meditel.ai&password=Demo"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-300 text-gray-800 px-6 py-3 rounded-md hover:bg-gray-400 inline-flex items-center justify-center text-lg font-semibold w-full sm:w-auto shadow-md hover:shadow-lg transition-shadow duration-300"
